@@ -1,0 +1,15 @@
+# Core federated learning framework
+flwr
+
+# PyTorch (CPU-only build)
+torch==2.4.0+cpu
+torchvision==0.19.0+cpu
+torchaudio==2.4.0+cpu
+# Install with PyTorch's CPU index:
+# pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cpu
+
+# Supporting libraries
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+matplotlib==3.9.2
